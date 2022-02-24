@@ -7,12 +7,45 @@
     <title>Quotes Generator</title>
   </head>
   <body class="bg-lime-50">
-    <header class="text-center text-5xl font-bold my-10 text-sky-300">
-      Random <span class="text-pink-300">Quotes</span> Generator
+    <header class="text-center text-5xl font-bold my-10 text-sky-400">
+      Random <span class="text-pink-400">Quotes</span> Generator
     </header>
     <main class="text-center">
-      <blockquote>hhh</blockquote>
+      <blockquote
+        class="relative py-5 px-2 font-semibold text-2xl drop-shadow w-9/12 mx-auto bg-white"
+      >
+        <sup class="absolute top-0 left-0 text-pink-500 text-2xl"
+          ><i class="fas fa-quote-left"></i
+        ></sup>
+        <span class="quote">hh ffffff </span>
+        <sup class="absolute top-0 right-0 text-pink-500 text-2xl"
+          ><i class="fas fa-quote-right"></i
+        ></sup>
+      </blockquote>
+      <div
+        class="mx-20 justify-center mt-5 grid sm:grid-cols-2 grid-rows-2 gap-5"
+      >
+        <button
+          id="try-another-btn"
+          class="text-white rounded-full py-3 px-4 font-bold bg-sky-500 hover:bg-sky-600"
+        >
+          Try Another
+        </button>
+        <button
+          id="copy-btn"
+          class="text-white rounded-full py-3 px-4 font-bold bg-pink-500 hover:bg-pink-600"
+        >
+          Copy
+        </button>
+      </div>
     </main>
+    <footer class="text-center mt-20 bg-slate-500 text-white p-2">
+      <p>This is Practice Project of Kanye Rest API</p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/fa8c3d741e.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/tailwind-3-0-18.js"></script>
     <script src="./js/script.js"></script>
   </body>
